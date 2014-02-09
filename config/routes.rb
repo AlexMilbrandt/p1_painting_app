@@ -1,4 +1,6 @@
 P1PaintingApp::Application.routes.draw do
+  resources :paintings
+
   resources :artists
 
   # The priority is based upon order of creation: first created -> highest priority.
